@@ -34,7 +34,7 @@ class FoodCard extends StatelessWidget {
           right: kDefaultPadding * 0.9,
         ),
         decoration: BoxDecoration(
-            color: Colors.grey[300],
+            color: Color(0xFFDFDFDF),
             borderRadius: BorderRadius.all(Radius.circular(20))),
     
         width: size.width * 0.4,

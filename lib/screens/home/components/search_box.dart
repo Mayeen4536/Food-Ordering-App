@@ -18,13 +18,14 @@ class SearchBox extends StatelessWidget {
       height: 44,
       decoration: BoxDecoration(
         
-        color: Colors.blueGrey[50],
+        color: Color(0xFFDFDFDF),
         borderRadius: BorderRadius.circular(20),
+        
         boxShadow: [
           BoxShadow(
-            offset: Offset(0, 8),
+            offset: Offset(0, 2),
             blurRadius: 10,
-            color: Colors.grey.withOpacity(0.5),
+            color: Colors.grey.withOpacity(0.2),
           )
         ]
 
@@ -36,6 +37,7 @@ class SearchBox extends StatelessWidget {
             height: 58,
             width: 30,
             child: SvgPicture.asset("assets/icons/icons8-search.svg")),
+            SizedBox(width: 8,),
           Expanded(
             child: TextField(
               onChanged: (value){},
